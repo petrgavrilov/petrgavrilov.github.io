@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #111;
+}
+
+main {
+  box-sizing: border-box;
+  padding: 24px 24px 48px;
+  max-width: 65ch;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: sub;
+}
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contacts-item:not(:last-child) {
+  margin-right: 14px;
+  margin-bottom: 14px;
+}
+
+.contacts-item a {
+  display: block;
+  color: inherit;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ccc;
+  text-decoration: none;
+}
+
+.contacts-item a:hover {
+  border-bottom-color: #111;
+}
+
+.contacts-item img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.contacts-item span {
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: middle;
+  line-height: 16px;
+}
